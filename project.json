@@ -1,0 +1,77 @@
+{
+  "name": "RecruitmentDashboard",
+  "projectId": "02e8e79c-7ece-4eec-a57b-c4c634a9c901",
+  "description": "תהליך עבור משאבי אנוש שיוצר קובץ מסכם שיכיל נתונים מלאים על מועמדים, משרות,פעילויות ומכרזים",
+  "main": "Main.xaml",
+  "dependencies": {
+    "RPA_Template": "2025.1.14",
+    "UiPath.Mail.Activities": "2.2.10",
+    "UiPath.MicrosoftOffice365.Activities": "2.6.23"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.7.0",
+  "projectVersion": "1.0.8",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ffe00257-55de-4721-a9e1-92f877a118a4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Business Process Tests\\CustomActions_TC_PlaceHolder.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ceb0be75-f8fc-4f1c-a27a-938ab03784d6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Business Process Tests\\Main_TC_PlaceHolder.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c5fd4c99-cc25-4a69-a7b4-b706b769f276",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/hms.png"
+  },
+  "targetFramework": "Windows"
+}
